@@ -7,3 +7,8 @@ iMac24-2007, 2.4 GHz Intel Core 2 Duo, x86-64, MacOS 10.11.6, python2.7.10, Tcl/
                                                           python3.10.0a6,  Tcl/Tk 8.6.11, TerraLunar-tkbench time =   290
 
 Raspberry Pi400, 1.8GHz quad arm64, 32-bit RaspberryOS Linux, python2.7.16, Tcl/Tk 8.5.9, TerraLunar-tkbench time =   56
+
+Dell laptop, i5-8250U Intel CPU, x86-64, Windows 10,        Python 2.7.18,  Tcl/Tk 8.5.?, TerraLunar-tkbench time =   8
+                                                              python3.8.2,  Tcl/Tk 8.6.8, TerraLunar-tkbench time =   8
+                                                              python3.9.2,  Tcl/Tk 8.6.8, TerraLunar-tkbench time =   8
+                                                           python3.10.0a6,  Tcl/Tk 8.6.8, TerraLunar-tkbench time =   8
