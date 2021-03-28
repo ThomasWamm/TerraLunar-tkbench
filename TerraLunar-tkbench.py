@@ -4,7 +4,7 @@
 # 2-D orbital mechanics simulation in Earth-Moon space.
 # by Thomas since 2020 for learning Python & SWEng
 #    2021-Mar-24 -- "-tkbench" version for tkinter benchmarking
-#    2021-Mar-26 -- identify operating environment
+#    2021-Mar-28 -- identify operating environment
 #
 # Optimized for portability and learning, not efficiency.
 # Consistent benchmarks require the graphics window be all visible, 
@@ -21,7 +21,7 @@
 # Requires tkinter module and graphics.py wrapper for tkinter, 
 # to do graphics in a window on different computing platforms.
 
-TerraLunar_tkbench_version = "0.1.5"       # was derived from TerraLunar 0.1.3
+TerraLunar_tkbench_version = "0.1.6"       # was derived from TerraLunar 0.1.3
 
 #import graphics as gr        # moved this line to as late as possible
 from random import randint
@@ -29,6 +29,7 @@ import math
 import time
 import sys
 import os
+import whichTclTk
 #import code
 
 # Need adaptability for different display devices...
@@ -202,8 +203,9 @@ oldmy = moony
 # Display some textual information...
 
 pythonversion = "Python " + sys.version.split(' ')[0] + " on " + sys.platform
+tcltkversion = whichTclTk.whichTclTkpatch()
 whatami = "TerraLunar-tkbench " + TerraLunar_tkbench_version
-whatsup = pythonversion + " running " + whatami
+whatsup = pythonversion + "  " + tcltkversion + "  " + whatami
 
 textversion = gr.Text(gr.Point(xll*0.0, yur*0.95), whatsup)
 textversion.setTextColor('cyan')
