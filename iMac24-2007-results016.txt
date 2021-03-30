@@ -1,0 +1,8 @@
+  Python 2.7.10 on darwin  Tcl 8.5  Tk 8.5  TerraLunar-tkbench 0.1.6  runtime = 264
+  Python 2.7.10 on darwin  Tcl 8.5  Tk 8.5  TerraLunar-tkbench 0.1.6  runtime = 261
+  Python 2.7.10 on darwin  Tcl 8.5  Tk 8.5  TerraLunar-tkbench 0.1.6  runtime = 262
+  Python 3.7.3 on darwin  Tcl 8.6  Tk 8.6  TerraLunar-tkbench 0.1.6  runtime = 372
+  Python 3.8.2 on darwin  Tcl 8.6  Tk 8.6  TerraLunar-tkbench 0.1.6  runtime = 362
+  Python 3.9.2 on darwin  Tcl 8.6  Tk 8.6  TerraLunar-tkbench 0.1.6  runtime = 364
+  Python 3.10.0a6 on darwin  Tcl 8.6  Tk 8.6  TerraLunar-tkbench 0.1.6  runtime = 285
+  Python 3.10.0a6 on darwin  Tcl 8.6  Tk 8.6  TerraLunar-tkbench 0.1.6  runtime = 293
