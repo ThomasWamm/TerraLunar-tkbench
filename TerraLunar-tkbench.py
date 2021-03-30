@@ -21,7 +21,7 @@
 # Requires tkinter module and graphics.py wrapper for tkinter, 
 # to do graphics in a window on different computing platforms.
 
-TerraLunar_tkbench_version = "0.1.6"       # was derived from TerraLunar 0.1.3
+TerraLunar_tkbench_version = "0.1.7"   # was derived from TerraLunar 0.1.3
 
 #import graphics as gr        # moved this line to as late as possible
 from random import randint
@@ -203,7 +203,7 @@ oldmy = moony
 # Display some textual information...
 
 pythonversion = "Python " + sys.version.split(' ')[0] + " on " + sys.platform
-tcltkversion = whichTclTk.whichTclTkpatch()
+tcltkversion = whichTclTk.getpatch()
 whatami = "TerraLunar-tkbench " + TerraLunar_tkbench_version
 whatsup = pythonversion + "  " + tcltkversion + "  " + whatami
 
