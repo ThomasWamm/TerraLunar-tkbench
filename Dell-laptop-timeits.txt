@@ -1,0 +1,9 @@
+PS C:\Users\PTR> python.exe
+Python 3.10.0a6 (tags/v3.10.0a6:cc12888, Mar  1 2021, 18:17:49) [MSC v.1928 64 bit (AMD64)] on win32
+
+PS C:\Users\PTR> python.exe -m timeit
+20000000 loops, best of 5: 10.6 nsec per loop
+
+PS C:\Users\PTR> python.exe -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 2.24 sec per loop
+
