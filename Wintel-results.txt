@@ -1,0 +1,7 @@
+Runtime results (seconds) from TerraLunar-tkbench.py on various platforms.
+
+Dell laptop Windows10 i5-8250U
+  Python 3.10.0a6 on win32  Tcl/Tk 8.6.10  TerraLunar-tkbench 0.1.8  runtime = 7
+  Python 3.9.2    on win32  Tcl/Tk 8.6.9   TerraLunar-tkbench 0.1.8  runtime = 7
+  Python 3.8.2    on win32  Tcl/Tk 8.6.9   TerraLunar-tkbench 0.1.8  runtime = 8
+
