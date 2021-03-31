@@ -1,0 +1,6 @@
+HP Laptop with 64-bit Windows10
+AMD E2-9000e RADEON R2, 4 COMPUTE CORES 2C+2G 1.50 GHz
+
+  Python 3.9.0 on win32  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 36
+  Python 3.9.0 on win32  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 37
+
