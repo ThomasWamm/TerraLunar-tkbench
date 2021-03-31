@@ -1,0 +1,7 @@
+old iMac24-2007  MacOS 10.11.6  on 2.4 GHz Intel Core 2 Duo (x86-64)
+
+  Python 2.7.10   on darwin  Tcl/Tk 8.5.9   TerraLunar-tkbench 0.1.8  runtime = 262
+  Python 3.7.3    on darwin  Tcl/Tk 8.6.8   TerraLunar-tkbench 0.1.8  runtime = 381
+  Python 3.8.2    on darwin  Tcl/Tk 8.6.8   TerraLunar-tkbench 0.1.8  runtime = 377
+  Python 3.9.2    on darwin  Tcl/Tk 8.6.8   TerraLunar-tkbench 0.1.8  runtime = 379
+  Python 3.10.0a6 on darwin  Tcl/Tk 8.6.11  TerraLunar-tkbench 0.1.8  runtime = 292
