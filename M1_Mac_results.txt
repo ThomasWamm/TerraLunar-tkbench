@@ -1,0 +1,8 @@
+Runtime results (seconds) from TerraLunar-tkbench.py on various platforms.
+
+Apple M1 Mac Mini MacOS 11.2.3    (should be my fastest, but is very slow for tkinter.py)
+  Python 2.7.16 on darwin  Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 37   (arm64)
+  Python 3.8.2 on darwin   Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 37   (arm64)
+  Python 3.8.7 on darwin   Tcl/Tk 8.6.8  TerraLunar-tkbench 0.1.8  runtime = 69   (x86-64)
+  Python 3.9.2 on darwin   Tcl/Tk 8.6.8  TerraLunar-tkbench 0.1.8  runtime = 69   (x86-64)
+  Python 3.10.0a6 on darwin Tcl/Tk 8.6.11 TerraLunar-tkbench 0.1.8 runtime = 421  (arm64)
