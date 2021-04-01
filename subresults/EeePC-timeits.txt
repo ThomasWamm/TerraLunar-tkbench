@@ -1,0 +1,12 @@
+old EeeBox PC, Windows 10 Pro on x86-64 Intel Atom CPU D510   @ 1.66GHz
+
+  Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+
+  PS D:> python -m timeit
+  5000000 loops, best of 5: 74.1 nsec per loop
+
+  PS D:> python -m timeit "for i in range(123456789):pass"
+  1 loop, best of 5: 15.9 sec per loop
+
+  Python 3.9.0 on win32  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 55
+
