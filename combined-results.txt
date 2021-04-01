@@ -1,0 +1,55 @@
+Runtime results (seconds) from TerraLunar-tkbench.py on various platforms.
+-------------------------------------------------------------------------------------------
+Apple M1 Mac Mini MacOS 11.2.3    (should be my fastest, but is slow for tkinter.py)
+
+  Python 2.7.16   on darwin Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 37   (arm64)
+  Python 3.8.2    on darwin Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 37   (arm64)
+  Python 3.8.7    on darwin Tcl/Tk 8.6.8  TerraLunar-tkbench 0.1.8  runtime = 69   (x86-64)
+  Python 3.9.2    on darwin Tcl/Tk 8.6.8  TerraLunar-tkbench 0.1.8  runtime = 69   (x86-64)
+* Python 3.10.0a6 on darwin Tcl/Tk 8.6.11 TerraLunar-tkbench 0.1.8  runtime = 421  (arm64)
+  ^^^^^^^^^^^^^^^ Why is this so slow?                                        ^^^
+
+-------------------------------------------------------------------------------------------
+old iMac24-2007  MacOS 10.11.6  on 2.4 GHz Intel Core 2 Duo (x86-64)
+
+  Python 2.7.10   on darwin  Tcl/Tk 8.5.9   TerraLunar-tkbench 0.1.8  runtime = 262
+  Python 3.7.3    on darwin  Tcl/Tk 8.6.8   TerraLunar-tkbench 0.1.8  runtime = 381
+  Python 3.8.2    on darwin  Tcl/Tk 8.6.8   TerraLunar-tkbench 0.1.8  runtime = 377
+  Python 3.9.2    on darwin  Tcl/Tk 8.6.8   TerraLunar-tkbench 0.1.8  runtime = 379
+  Python 3.10.0a6 on darwin  Tcl/Tk 8.6.11  TerraLunar-tkbench 0.1.8  runtime = 292
+
+  $ python3 -m timeit "for i in range(123456789):pass"
+  1 loop, best of 5: 5.82 sec per loop
+
+-------------------------------------------------------------------------------------------
+Dell laptop Windows10 i5-8250U  >= 1.6 GHz quad-core x86-64
+
+  Python 3.8.2    on win32  Tcl/Tk 8.6.9   TerraLunar-tkbench 0.1.8  runtime = 8
+  Python 3.9.2    on win32  Tcl/Tk 8.6.9   TerraLunar-tkbench 0.1.8  runtime = 7
+  Python 3.10.0a6 on win32  Tcl/Tk 8.6.10  TerraLunar-tkbench 0.1.8  runtime = 7
+
+-------------------------------------------------------------------------------------------
+HP Laptop with 64-bit Windows10 on AMD E2-9000e RADEON R2, 2C+2G 1.50 GHz x86-64
+
+  Python 3.9.0 on win32  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 36
+
+-------------------------------------------------------------------------------------------
+old Dell Inspiron Mini netbook running 32-bit Linux (Raspberry OS Desktop) 
+on 32-bit i686 Intel Atom CPU N270 at 1.6GHz
+Linux 4.19.0-16-686-pae #1 SMP Debian 4.19.181-1 (2021-03-19) i686 GNU/Linux
+
+  Python 2.7.16 on linux2  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 132
+  Python 3.7.3  on linux   Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 132
+
+-------------------------------------------------------------------------------------------
+Raspberry Pi 400 (32-bit Debian Raspberry OS on 1.8GHz quad-core arm64 in 32-bit mode)
+Linux 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux
+
+  Python 2.7.16 on linux2  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 56
+  Python 3.7.3  on linux   Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 57
+
+  $ python3 -m timeit "for i in range(123456789):pass"
+  1 loop, best of 5: 6.39 sec per loop
+
+-------------------------------------------------------------------------------------------
+End.

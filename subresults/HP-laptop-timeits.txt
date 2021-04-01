@@ -1,0 +1,12 @@
+PS C:TerraLunar-tkbench> & python TerraLunar-tkbench.py
+  Python 3.9.0 on win32  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 25
+
+PS C:> & ...PTR/AppData/Local/Programs/Python/Python39/python
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+>>> ^Z^Z
+
+PS C:> & python -m timeit
+10000000 loops, best of 5: 23.3 nsec per loop
+
+PS C:> & python -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 4.95 sec per loop
