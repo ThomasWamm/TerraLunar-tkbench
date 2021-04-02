@@ -1,0 +1,120 @@
+% whence python
+/usr/bin/python
+% python
+
+WARNING: Python 2.7 is not recommended. 
+This version is included in macOS for compatibility with legacy software. 
+Future versions of macOS will not include Python 2.7. 
+Instead, it is recommended that you transition to using 'python3' from within Terminal.
+
+Python 2.7.16 (default, Dec 21 2020, 23:00:36) 
+[GCC Apple LLVM 12.0.0 (clang-1200.0.30.4) [+internal-os, ptrauth-isa=sign+stri on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^D
+
+% whence python3
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+% python3
+Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^D
+
+% whence python3.8
+/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+% python3.8 
+Python 3.8.7 (v3.8.7:6503f05dd5, Dec 21 2020, 12:45:15) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^D
+
+% whence python3.9
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+% python3.9 
+Python 3.9.2 (v3.9.2:1a79785e3e, Feb 19 2021, 09:06:10) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^D
+
+% whence python3.10
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+% python3.10 
+Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^D
+
+% /usr/bin/python3
+Python 3.8.2 (default, Dec 21 2020, 15:06:03) 
+[Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^D
+
+% file /usr/bin/python3
+/usr/bin/python3: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64e:Mach-O 64-bit executable arm64e]
+/usr/bin/python3 (for architecture x86_64):     Mach-O 64-bit executable x86_64
+/usr/bin/python3 (for architecture arm64e):     Mach-O 64-bit executable arm64e
+% 
+
+----------
+
+% whence python
+/usr/bin/python
+
+% file /usr/bin/python
+/usr/bin/python: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64e:Mach-O 64-bit executable arm64e]
+/usr/bin/python (for architecture x86_64):      Mach-O 64-bit executable x86_64
+/usr/bin/python (for architecture arm64e):      Mach-O 64-bit executable arm64e
+
+% whence python3
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+
+% file /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3 (for architecture x86_64):       Mach-O 64-bit executable x86_64
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3 (for architecture arm64):        Mach-O 64-bit executable arm64
+
+% whence python3.8
+/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+
+% file /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8: Mach-O 64-bit executable x86_64
+
+% whence python3.9
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+
+% file /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9: Mach-O 64-bit executable x86_64
+
+% whence python3.10
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+
+% file /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture x86_64):    Mach-O 64-bit executable x86_64
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture arm64):     Mach-O 64-bit executable arm64
+
+% file /usr/bin/python3
+/usr/bin/python3: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64e:Mach-O 64-bit executable arm64e]
+/usr/bin/python3 (for architecture x86_64):     Mach-O 64-bit executable x86_64
+/usr/bin/python3 (for architecture arm64e):     Mach-O 64-bit executable arm64e
+
+% /usr/bin/python3 
+Python 3.8.2 (default, Dec 21 2020, 15:06:03) 
+[Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> help()
+
+Welcome to Python 3.8's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at https://docs.python.org/3.8/tutorial/.
+...etc...
+>>> ^D
+
+% python3
+Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^D
+
+% whence python3
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+

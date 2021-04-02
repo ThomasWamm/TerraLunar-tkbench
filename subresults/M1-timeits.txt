@@ -1,0 +1,28 @@
+% /usr/bin/python3 
+Python 3.8.2 (default, Dec 21 2020, 15:06:03) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+
+% /usr/bin/python3  -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 1.27 sec per loop
+
+
+% python3.8                                           
+Python 3.8.7 (v3.8.7:6503f05dd5, Dec 21 2020, 12:45:15) [Clang 6.0 (clang-600.0.57)] on darwin
+
+% python3.8 -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 2.42 sec per loop
+
+
+% python3.9 -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 2.56 sec per loop
+
+
+% python3.10 -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 1.24 sec per loop
+
+
+% /usr/local/bin/python3                                           
+Python 3.9.2 (v3.9.2:1a79785e3e, Feb 19 2021, 09:06:10) [Clang 6.0 (clang-600.0.57)] on darwin
+
+% /usr/local/bin/python3 -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 2.57 sec per loop
+
