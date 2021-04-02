@@ -1,0 +1,75 @@
+iMac24-2007 installed Python versions
+=====================================
+
+$ ls -l /usr/bin/python*
+-rwxr-xr-x  1 root  wheel  66736  8 Jul  2016 /usr/bin/python
+lrwxr-xr-x  1 root  wheel     75  6 Mar  2019 /usr/bin/python2.6 -> ../../System/Library/Frameworks/Python.framework/Versions/2.6/bin/python2.6
+lrwxr-xr-x  1 root  wheel     75  6 Mar  2019 /usr/bin/python2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+
+
+$ ls -l /usr/local/bin/python3*
+lrwxr-xr-x  1 root  wheel  69 20 Mar 20:08 /usr/local/bin/python3 -> ../../../Library/Frameworks/Python.framework/Versions/3.9/bin/python3
+lrwxr-xr-x  1 root  wheel  73 17 Mar 17:12 /usr/local/bin/python3.10 -> ../../../Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+lrwxr-xr-x  1 root  wheel  71 16 Mar 12:57 /usr/local/bin/python3.7 -> ../../../Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7
+lrwxr-xr-x  1 root  wheel  71  8 Apr  2020 /usr/local/bin/python3.8 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+lrwxr-xr-x  1 root  wheel  71 20 Mar 20:08 /usr/local/bin/python3.9 -> ../../../Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+
+
+$ which python3.10
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+
+$ type python3.10
+python3.10 is /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+
+
+python       /usr/bin/python
+
+python2.6    /usr/bin/python2.6
+
+python2.7    /usr/bin/python2.7
+
+
+python3      /Library/Frameworks/Python.framework/Versions/3.9/bin/python3
+
+python3.7    /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7
+
+python3.8    /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+
+python3.9    /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+
+python3.10   /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+
+
+$ file /usr/bin/python
+/usr/bin/python: Mach-O universal binary with 2 architectures
+/usr/bin/python (for architecture i386):	Mach-O executable i386
+/usr/bin/python (for architecture x86_64):	Mach-O 64-bit executable x86_64
+
+$ file /usr/bin/python2.6
+/usr/bin/python2.6: Mach-O universal binary with 2 architectures
+/usr/bin/python2.6 (for architecture i386):	Mach-O executable i386
+/usr/bin/python2.6 (for architecture x86_64):	Mach-O 64-bit executable x86_64
+
+$ file /usr/bin/python2.7
+/usr/bin/python2.7: Mach-O universal binary with 2 architectures
+/usr/bin/python2.7 (for architecture i386):	Mach-O executable i386
+/usr/bin/python2.7 (for architecture x86_64):	Mach-O 64-bit executable x86_64
+
+
+$ file /Library/Frameworks/Python.framework/Versions/3.9/bin/python3
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3: Mach-O 64-bit executable x86_64
+
+$ file /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7
+/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7: Mach-O 64-bit executable x86_64
+
+$ file /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8: Mach-O 64-bit executable x86_64
+
+$ file /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9: Mach-O 64-bit executable x86_64
+
+$ file /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10: Mach-O universal binary with 2 architectures
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture x86_64):	Mach-O 64-bit executable x86_64
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture arm64):	Mach-O 64-bit executable
+

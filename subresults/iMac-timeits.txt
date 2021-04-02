@@ -1,36 +1,20 @@
-iMac24-2007:~ PTR$ python3
-Python 3.9.2 (v3.9.2:1a79785e3e, Feb 19 2021, 09:06:10) [Clang 6.0 (clang-600.0.57)] on darwin
+iMac24-2007
 
-iMac24-2007:~ PTR$ python3 -m timeit 
+$ python3 -m timeit 
 20000000 loops, best of 5: 14.9 nsec per loop
 
-iMac24-2007:~ PTR$ python3 -m timeit "for i in range(123456789):pass"
+$ python3 -m timeit "for i in range(123456789):pass"
 1 loop, best of 5: 5.61 sec per loop
 
-
-iMac24-2007:~ PTR$ python3.7 -m timeit "for i in range(123456789):pass"
+$ python3.7 -m timeit "for i in range(123456789):pass"
 1 loop, best of 5: 5.53 sec per loop
 
-iMac24-2007:~ PTR$ python3.8 -m timeit "for i in range(123456789):pass"
+$ python3.8 -m timeit "for i in range(123456789):pass"
 1 loop, best of 5: 5.39 sec per loop
 
-iMac24-2007:~ PTR$ python3.9 -m timeit "for i in range(123456789):pass"
+$ python3.9 -m timeit "for i in range(123456789):pass"
 1 loop, best of 5: 5.57 sec per loop
 
-iMac24-2007:~ PTR$ python3.10 -m timeit "for i in range(123456789):pass"
+$ python3.10 -m timeit "for i in range(123456789):pass"
 1 loop, best of 5: 5.88 sec per loop
-
-
-iMac24-2007:~ PTR$ python3.7
-Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21) [Clang 6.0 (clang-600.0.57)] on darwin
-
-iMac24-2007:~ PTR$ python3.8
-Python 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) [Clang 6.0 (clang-600.0.57)] on darwin
-
-iMac24-2007:~ PTR$ python3.9
-Python 3.9.2 (v3.9.2:1a79785e3e, Feb 19 2021, 09:06:10) [Clang 6.0 (clang-600.0.57)] on darwin
-
-iMac24-2007:~ PTR$ python3.10
-Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
-                                        DIFFERENT BUILDER?     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
