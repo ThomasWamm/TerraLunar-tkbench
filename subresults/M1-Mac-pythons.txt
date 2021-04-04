@@ -1,134 +1,36 @@
-% whence python
-/usr/bin/python
-% python
-Python 2.7.16 (default, Dec 21 2020, 23:00:36) [GCC Apple LLVM 12.0.0 (clang-1200.0.30.4) [+internal-os, ptrauth-isa=sign+stri on darwin
+Which versions of Python do I have on my M1 Mac Mini, 
+where are they,  how do I invoke them,  and are they for  x86-64  or  arm64 ?
+Apple provided a python and python3, but then I installed newer python3.x's.
+-----------------------------------------------------------------------------------
 
+% echo $PATH       # newlines added for clarity !
+/Library/Frameworks/Python.framework/Versions/3.10/bin:
+/Library/Frameworks/Python.framework/Versions/3.8/bin:
+/Library/Frameworks/Python.framework/Versions/3.9/bin:
+/usr/local/bin:
+/usr/bin:
+/bin:
+/usr/sbin:
+/sbin:
+/Library/Apple/usr/bin:
 
-% whence python3
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-% python3
-Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
-
-
-% whence python3.8
-/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
-% python3.8 
-Python 3.8.7 (v3.8.7:6503f05dd5, Dec 21 2020, 12:45:15) [Clang 6.0 (clang-600.0.57)] on darwin
-
-% whence python3.9
-/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
-% python3.9 
-Python 3.9.2 (v3.9.2:1a79785e3e, Feb 19 2021, 09:06:10) [Clang 6.0 (clang-600.0.57)] on darwin
-
-% whence python3.10
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
-
-% python3.10 
-Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
-
-
-% /usr/bin/python3
-Python 3.8.2 (default, Dec 21 2020, 15:06:03) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
-
-% file /usr/bin/python3
-/usr/bin/python3: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64e:Mach-O 64-bit executable arm64e]
-/usr/bin/python3 (for architecture x86_64):     Mach-O 64-bit executable x86_64
-/usr/bin/python3 (for architecture arm64e):     Mach-O 64-bit executable arm64e
-
-----------
-
-% whence python
-/usr/bin/python
-
-% file /usr/bin/python
-/usr/bin/python: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64e:Mach-O 64-bit executable arm64e]
-/usr/bin/python (for architecture x86_64):      Mach-O 64-bit executable x86_64
-/usr/bin/python (for architecture arm64e):      Mach-O 64-bit executable arm64e
-
-% whence python3
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-
-% file /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3 (for architecture x86_64):       Mach-O 64-bit executable x86_64
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3 (for architecture arm64):        Mach-O 64-bit executable arm64
-
-% whence python3.8
-/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
-
-% file /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
-/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8: Mach-O 64-bit executable x86_64
-
-% whence python3.9
-/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
-
-% file /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
-/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9: Mach-O 64-bit executable x86_64
-
-% whence python3.10
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
-
-% file /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture x86_64):    Mach-O 64-bit executable x86_64
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture arm64):     Mach-O 64-bit executable arm64
-
-% file /usr/bin/python3
-/usr/bin/python3: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64e:Mach-O 64-bit executable arm64e]
-/usr/bin/python3 (for architecture x86_64):     Mach-O 64-bit executable x86_64
-/usr/bin/python3 (for architecture arm64e):     Mach-O 64-bit executable arm64e
-
-% /usr/bin/python3 
-Python 3.8.2 (default, Dec 21 2020, 15:06:03) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
-
-
-% python3
-Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
-
-
-  Python 2.7.16 on darwin  Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 37
-
-
-% ll /usr/bin/python*
-lrwxr-xr-x  1 root  wheel      75 Jan  1  2020 /usr/bin/python -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
-lrwxr-xr-x  1 root  wheel      75 Jan  1  2020 /usr/bin/python2 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
-lrwxr-xr-x  1 root  wheel      75 Jan  1  2020 /usr/bin/python2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
--rwxr-xr-x  1 root  wheel  137552 Jan  1  2020 /usr/bin/python3
-lrwxr-xr-x  1 root  wheel      76 Jan  1  2020 /usr/bin/pythonw    -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/pythonw2.7
-lrwxr-xr-x  1 root  wheel      76 Jan  1  2020 /usr/bin/pythonw2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/pythonw2.7
-
-% which python
-/usr/bin/python
-
-% which python3
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-
-% whence python
-/usr/bin/python
-
-% whence python3
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-
-% type python   
-python is /usr/bin/python
-
-% type python3
-python3 is /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-
-% type python3.8
-python3.8 is /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
-
-% type python3.9
-python3.9 is /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
-
-% type python3.10
-python3.10 is /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
-
-% type python3   
-python3 is /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
-
-% type python 
-python is /usr/bin/python
+-----------------------------------------------------------------------------------
+% ls -l /usr/local/bin/python*
+lrwxr-xr-x  1 root  wheel  73 17 Mar 02:53 /usr/local/bin/python3.10 -> ../../../Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+lrwxr-xr-x  1 root  wheel  71 18 Mar 16:55 /usr/local/bin/python3.9  -> ../../../Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+lrwxr-xr-x  1 root  wheel  71 16 Mar 18:22 /usr/local/bin/python3.8  -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+lrwxr-xr-x  1 root  wheel  69 18 Mar 16:55 /usr/local/bin/python3    -> ../../../Library/Frameworks/Python.framework/Versions/3.9/bin/python3
+-----------------------------------------------------------------------------------
+% ls -l /usr/bin/python*
+lrwxr-xr-x  1 root  wheel      75  1 Jan  2020 /usr/bin/python    -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+lrwxr-xr-x  1 root  wheel      75  1 Jan  2020 /usr/bin/python2   -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+lrwxr-xr-x  1 root  wheel      75  1 Jan  2020 /usr/bin/python2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+-rwxr-xr-x  1 root  wheel  137552  1 Jan  2020 /usr/bin/python3
+-----------------------------------------------------------------------------------
+% ls -l /Library/Frameworks/Python.framework/Versions/3.10/bin/python*
+lrwxr-xr-x  1 root  admin      10 17 Mar 02:53 /Library/Frameworks/Python.framework/Versions/3.10/bin/python3 -> python3.10
+-rwxrwxr-x  1 root  admin  152272  1 Mar 09:23 /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+-----------------------------------------------------------------------------------
 
 % python
 WARNING: Python 2.7 is not recommended. 
@@ -139,53 +41,128 @@ Instead, it is recommended that you transition to using 'python3' from within Te
 Python 2.7.16 (default, Dec 21 2020, 23:00:36) 
 [GCC Apple LLVM 12.0.0 (clang-1200.0.30.4) [+internal-os, ptrauth-isa=sign+stri on darwin
 
+
+% whence python            # this one came packaged with MacOS from Apple
+/usr/bin/python
+
+% file /usr/bin/python
+/usr/bin/python: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64e:Mach-O 64-bit executable arm64e]
+/usr/bin/python (for architecture x86_64):      Mach-O 64-bit executable x86_64
+/usr/bin/python (for architecture arm64e):      Mach-O 64-bit executable arm64e
+
+# it does run as M1 native arm64 Apple architecture, as indicated by Activity Monitor in MacOS
+
+-----------------------------------------
+
 % python3
 Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
 
-% python3.8
-Python 3.8.7 (v3.8.7:6503f05dd5, Dec 21 2020, 12:45:15) [Clang 6.0 (clang-600.0.57)] on darwin
-
-% python3.9
-Python 3.9.2 (v3.9.2:1a79785e3e, Feb 19 2021, 09:06:10) [Clang 6.0 (clang-600.0.57)] on darwin
-
-% python3.10
-Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
-
-% which python3
+% whence python3                    # I downloaded this one from python.org
 /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+                                    # This is now different from /usr/bin/python3   !!!
 
-% type python3
-python3 is /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+% file /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3 (for architecture x86_64):       Mach-O 64-bit executable x86_64
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3 (for architecture arm64):        Mach-O 64-bit executable arm64
+
+# it does run as M1 native arm64 Apple architecture, as indicated by Activity Monitor in MacOS
+
+-----------------------------------------
+
+# I believe this one came packaged with MacOS from Apple...
+
+% /usr/bin/python3
+Python 3.8.2 (default, Dec 21 2020, 15:06:03) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
 
 % file /usr/bin/python3
 /usr/bin/python3: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64e:Mach-O 64-bit executable arm64e]
 /usr/bin/python3 (for architecture x86_64):     Mach-O 64-bit executable x86_64
 /usr/bin/python3 (for architecture arm64e):     Mach-O 64-bit executable arm64e
 
-% /usr/bin/python3 
-Python 3.8.2 (default, Dec 21 2020, 15:06:03) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+# it does run as M1 native arm64 Apple architecture, as indicated by Activity Monitor in MacOS
 
-% python3
+-----------------------------------------
+
+% python3.8 
+Python 3.8.7 (v3.8.7:6503f05dd5, Dec 21 2020, 12:45:15) [Clang 6.0 (clang-600.0.57)] on darwin
+
+% whence python3.8                    # I downloaded this one from python.org
+/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+
+% file /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8: Mach-O 64-bit executable x86_64
+
+# it runs as x86_64, using Rosetta2 on M1 Mac, indicated as Intel architecture in Activity Monitor
+
+-----------------------------------------
+
+% python3.9 
+Python 3.9.2 (v3.9.2:1a79785e3e, Feb 19 2021, 09:06:10) [Clang 6.0 (clang-600.0.57)] on darwin
+
+% whence python3.9                    # I downloaded this one from python.org
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+
+% file /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9: Mach-O 64-bit executable x86_64
+
+# it runs as x86_64, using Rosetta2 on M1 Mac, indicated as Intel architecture in Activity Monitor
+
+-----------------------------------------
+
+% python3.10
 Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
 
-% which python3
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+% whence python3.10                    # I downloaded this one from python.org
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
 
+% file /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture x86_64):    Mach-O 64-bit executable x86_64
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture arm64):     Mach-O 64-bit executable arm64
 
-% ls -l /usr/bin/python*
-lrwxr-xr-x  1 root  wheel      75  1 Jan  2020 /usr/bin/python -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
-lrwxr-xr-x  1 root  wheel      75  1 Jan  2020 /usr/bin/python2 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
-lrwxr-xr-x  1 root  wheel      75  1 Jan  2020 /usr/bin/python2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
--rwxr-xr-x  1 root  wheel  137552  1 Jan  2020 /usr/bin/python3
+# it does run as M1 native arm64 Apple architecture, as indicated by Activity Monitor in MacOS
 
-% ls -l /usr/local/bin/python*
-lrwxr-xr-x  1 root  wheel  69 18 Mar 16:55 /usr/local/bin/python3 -> ../../../Library/Frameworks/Python.framework/Versions/3.9/bin/python3
-lrwxr-xr-x  1 root  wheel  73 17 Mar 02:53 /usr/local/bin/python3.10 -> ../../../Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
-lrwxr-xr-x  1 root  wheel  71 16 Mar 18:22 /usr/local/bin/python3.8 -> ../../../Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
-lrwxr-xr-x  1 root  wheel  71 18 Mar 16:55 /usr/local/bin/python3.9 -> ../../../Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+-----------------------------------------
 
-  Python 2.7.16 on darwin  Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 39
+# So here are some ways to run my tkbenchmark on my M1 Mac Mini...
+# (The program opens a tk window, possibly hidden behind the Terminal or other windows.)
+
+% python TerraLunar-tkbench.py         
+DEPRECATION WARNING: The system version of Tk is deprecated and may be removed in a future release. 
+Please don't rely on it. Set TK_SILENCE_DEPRECATION=1 to suppress this warning.
   Python 2.7.16 on darwin  Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 36
-  Python 2.7.16 on darwin  Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 36
-  Python 3.8.2 on darwin  Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 37
+
+% python3 TerraLunar-tkbench.py
   Python 3.10.0a6 on darwin  Tcl/Tk 8.6.11  TerraLunar-tkbench 0.1.8  runtime = 421
+
+% /usr/bin/python TerraLunar-tkbench.py
+DEPRECATION WARNING: The system version of Tk is deprecated and may be removed in a future release. 
+Please don't rely on it. Set TK_SILENCE_DEPRECATION=1 to suppress this warning.
+  Python 2.7.16 on darwin  Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 36
+
+% /usr/bin/python3 TerraLunar-tkbench.py
+DEPRECATION WARNING: The system version of Tk is deprecated and may be removed in a future release. 
+Please don't rely on it. Set TK_SILENCE_DEPRECATION=1 to suppress this warning.
+  Python 3.8.2 on darwin  Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 36
+
+% python3.8 TerraLunar-tkbench.py
+  Python 3.8.7 on darwin  Tcl/Tk 8.6.8  TerraLunar-tkbench 0.1.8  runtime = 68
+
+% python3.9 TerraLunar-tkbench.py
+  Python 3.9.2 on darwin  Tcl/Tk 8.6.8  TerraLunar-tkbench 0.1.8  runtime = 68
+
+% python3.10 TerraLunar-tkbench.py
+  Python 3.10.0a6 on darwin  Tcl/Tk 8.6.11  TerraLunar-tkbench 0.1.8  runtime = 421
+
+% cat TerraLunar-tkbench.py 
+#!/usr/bin/python
+# TerraLunar-tkbench.py   tkinter/Tcl/Tk benchmark toy.
+# ... etc etc ...
+
+% ./TerraLunar-tkbench.py
+DEPRECATION WARNING: The system version of Tk is deprecated and may be removed in a future release. 
+Please don't rely on it. Set TK_SILENCE_DEPRECATION=1 to suppress this warning.
+  Python 2.7.16 on darwin  Tcl/Tk 8.5.9  TerraLunar-tkbench 0.1.8  runtime = 36
+
+End.
