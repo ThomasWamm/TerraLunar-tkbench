@@ -1,7 +1,7 @@
 Runtime results (seconds) from TerraLunar-tkbench.py on various platforms.
 
 Raspberry Pi 400 (32-bit Debian Raspberry OS on 1.8GHz quad-core arm64 in 32-bit mode)
-Linux pi400 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux
+Linux 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux
 
   Python 2.7.16 on linux2  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 56
   Python 3.7.3  on linux   Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 57

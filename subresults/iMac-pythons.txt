@@ -70,6 +70,6 @@ $ file /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
 
 $ file /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10
 /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10: Mach-O universal binary with 2 architectures
-/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture x86_64):	Mach-O 64-bit executable x86_64
+/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture x86_64): Mach-O 64-bit executable x86_64
 /Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (for architecture arm64):	Mach-O 64-bit executable
 

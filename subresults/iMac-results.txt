@@ -11,6 +11,7 @@ old iMac24-2007 = MacOS 10.11.6  on 2.4 GHz Intel Core 2 Duo (x86-64)
   Python 3.10.0a6 on darwin  Tcl/Tk 8.6.11  TerraLunar-tkbench 0.1.8  runtime = 292
 
 ----------------------------
+version info:
 
 Python 2.6.9    (unknown, Oct 23 2015, 19:19:20) [GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
 Python 2.7.10   (default, Oct 23 2015, 19:19:21) [GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
@@ -21,3 +22,4 @@ Python 3.9.2    (v3.9.2:   1a79785e3e, Feb 19 2021, 09:06:10) [Clang 6.0    (cla
 
 Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
 
+End.

@@ -14,5 +14,5 @@ these three Pythons were downloaded from python.org and installed by me the user
                                   incredibly slow!___________________________^^^
 
 None of these results are competitive with the same Python program running on 
-my Windows 10 computer with an Intel i5-8250U processor. (runtime = 8)!!!
+my Windows 10 laptop with an Intel i5-8250U processor. (runtime = 8)!!!
 

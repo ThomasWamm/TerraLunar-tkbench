@@ -1,6 +1,6 @@
 old Dell Inspiron Mini netbook running Linux (Raspberry OS Desktop) 
 on 32-bit i686 Intel Atom CPU N270 at 1.6GHz
-Linux DellMiniPi 4.19.0-16-686-pae #1 SMP Debian 4.19.181-1 (2021-03-19) i686 GNU/Linux
+Linux 4.19.0-16-686-pae #1 SMP Debian 4.19.181-1 (2021-03-19) i686 GNU/Linux
 
   Python 2.7.16 on linux2  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 132
   Python 3.7.3 on linux  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 132

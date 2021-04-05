@@ -124,6 +124,17 @@ Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (cla
 # it does run as M1 native arm64 Apple architecture, as indicated by Activity Monitor in MacOS
 
 -----------------------------------------
+Build specs from each Python on my M1 Mac:
+
+Python 2.7.16   (default, Dec 21 2020, 23:00:36)     [GCC Apple LLVM 12.0.0 (clang-1200.0.30.4) [+internal-os, ptrauth-isa=sign+stri on darwin
+Python 3.8.2    (default, Dec 21 2020, 15:06:03)              [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+
+Python 3.8.7    (v3.8.7:6503f05dd5, Dec 21 2020, 12:45:15)    [Clang 6.0    (clang-600.0.57)]     on darwin
+Python 3.9.2    (v3.9.2:1a79785e3e, Feb 19 2021, 09:06:10)    [Clang 6.0    (clang-600.0.57)]     on darwin
+
+Python 3.10.0a6 (v3.10.0a6:cc12888f9b, Mar  1 2021, 12:17:51) [Clang 12.0.0 (clang-1200.0.32.29)] on darwin
+
+-----------------------------------------
 
 # So here are some ways to run my tkbenchmark on my M1 Mac Mini...
 # (The program opens a tk window, possibly hidden behind the Terminal or other windows.)
