@@ -5,6 +5,7 @@
 # by Thomas since 2020 for learning Python & SWEng
 #    2021-Mar-24 -- "-tkbench" version for tkinter benchmarking
 #    2021-Mar-28 -- identify operating environment
+#    2021-Apr-04 -- first release 0.1.8, with various benchmark results
 #
 # Optimized for portability and learning, not efficiency.
 # Consistent benchmarks require the graphics window be all visible, 
