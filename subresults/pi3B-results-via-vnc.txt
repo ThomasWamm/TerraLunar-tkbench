@@ -1,0 +1,23 @@
+Results for a Raspberry pi3B (1.2 GHz quad arm64 running 32-bit Linux Raspberry OS).
+The pi3B is headless and controlled thru VNC.
+
+
+  Python 2.7.16 on linux2  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 90
+  Python 2.7.16 on linux2  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 89
+  Python 3.7.3 on linux  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 92
+  Python 3.7.3 on linux  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 92
+
+
+python3 -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 28.2 sec per loop
+
+python3 -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 28.2 sec per loop
+
+
+$ python
+Python 2.7.16 (default, Oct 10 2019, 22:02:15) [GCC 8.3.0] on linux2
+
+$ python3
+Python 3.7.3 (default, Jul 25 2020, 13:03:44) [GCC 8.3.0] on linux
+
