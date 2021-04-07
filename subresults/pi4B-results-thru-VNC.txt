@@ -1,0 +1,30 @@
+Results for Raspberry pi4B (1.5GHz quad arm64 running 32-bit Raspberry OS Linux)
+The pi4B is running headless, controlled thru VNC, which slows down the pi4B.
+
+
+  Python 2.7.16 on linux2  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 81
+  Python 2.7.16 on linux2  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 81
+  Python 3.7.3 on linux  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 82
+  Python 3.7.3 on linux  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 82
+
+
+python3 -m timeit
+10000000 loops, best of 5: 24 nsec per loop
+
+python3 -m timeit "for i in range(123456789):pass"
+1 loop, best of 5: 7.67 sec per loop
+
+
+$ which python
+/usr/bin/python
+
+$ which python3
+/usr/bin/python3
+
+
+$ python
+Python 2.7.16 (default, Oct 10 2019, 22:02:15) [GCC 8.3.0] on linux2
+
+$ python3
+Python 3.7.3 (default, Jul 25 2020, 13:03:44) [GCC 8.3.0] on linux
+
