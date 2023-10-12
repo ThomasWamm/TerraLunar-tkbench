@@ -75,6 +75,17 @@ Linux 5.10.17-v7l+ #1403 SMP Mon Feb 22 11:33:35 GMT 2021 armv7l GNU/Linux
   1 loop, best of 5: 6.39 sec per loop
 
 -------------------------------------------------------------------------------------------
+Raspberry Pi 400 (64-bit Debian Raspberry OS on 1.8GHz quad-core arm64 in 64-bit mode)
+Linux 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr 3 17:24:16 BST 2023 aarch64 GNU/Linux
+
+  Python 2.7.18 on linux2  Tcl/Tk 8.6.11  TerraLunar-tkbench 0.1.8  runtime = 66
+  Python 3.9.2 on linux  Tcl/Tk 8.6.11  TerraLunar-tkbench 0.1.8  runtime = 68
+  Python 3.9.2 on linux  Tcl/Tk 8.6.11  TerraLunar-tkbench 0.1.8  runtime = 66
+
+  $ python3 -m timeit "for i in range(123456789):pass"
+  1 loop, best of 5: 4.81 sec per loop
+
+-------------------------------------------------------------------------------------------
 old EeeBox PC, Windows 10 Pro on x86_64 Intel Atom CPU D510   @ 1.66GHz
 
   Python 3.9.0 on win32  Tcl/Tk 8.6.9  TerraLunar-tkbench 0.1.8  runtime = 55
